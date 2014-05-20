@@ -1,0 +1,657 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SixteenTeamUnseededCup</class>
+ <widget class="QWidget" name="SixteenTeamUnseededCup">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>766</width>
+    <height>661</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Cup</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="6" column="3" colspan="2">
+    <widget class="QLabel" name="match2Team">
+     <property name="text">
+      <string>Match 2 Winner</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="2">
+    <widget class="QLabel" name="team2Score">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="0" colspan="2">
+    <widget class="QLabel" name="team2Team">
+     <property name="text">
+      <string>Team 2</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="0" colspan="2">
+    <widget class="QLabel" name="team3Team">
+     <property name="text">
+      <string>Team 3</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item row="28" column="0" colspan="2">
+    <widget class="QLabel" name="team14Team">
+     <property name="text">
+      <string>Team 14</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item row="9" column="2">
+    <widget class="QLabel" name="team5Score">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </widget>
+   </item>
+   <item row="9" column="0" colspan="2">
+    <widget class="QLabel" name="team5Team">
+     <property name="text">
+      <string>Team 5</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item row="11" column="0" colspan="2">
+    <widget class="QLabel" name="team6Team">
+     <property name="text">
+      <string>Team 6</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item row="7" column="0" colspan="2">
+    <widget class="QLabel" name="team4Team">
+     <property name="text">
+      <string>Team 4</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item row="30" column="0" colspan="2">
+    <widget class="QLabel" name="team15Team">
+     <property name="text">
+      <string>Team 15</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item row="28" column="2">
+    <widget class="QLabel" name="team14Score">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </widget>
+   </item>
+   <item row="14" column="5">
+    <widget class="QLabel" name="match4Score">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0" colspan="2">
+    <widget class="QLabel" name="team1Team">
+     <property name="text">
+      <string>Team 1</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="5">
+    <widget class="QLabel" name="match1Score">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </widget>
+   </item>
+   <item row="31" column="3" colspan="2">
+    <widget class="QLabel" name="match8Team">
+     <property name="text">
+      <string>Match 8 Winner</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item row="27" column="5">
+    <widget class="QLabel" name="match7Score">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </widget>
+   </item>
+   <item row="27" column="3" colspan="2">
+    <widget class="QLabel" name="match7Team">
+     <property name="text">
+      <string>Match 7 Winner</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="6" colspan="2">
+    <widget class="QLabel" name="quarter1Team">
+     <property name="text">
+      <string>Match 9 Winner</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item row="7" column="2">
+    <widget class="QLabel" name="team4Score">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </widget>
+   </item>
+   <item row="10" column="5">
+    <widget class="QLabel" name="match3Score">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </widget>
+   </item>
+   <item row="32" column="2">
+    <widget class="QLabel" name="team16Score">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </widget>
+   </item>
+   <item row="29" column="8">
+    <widget class="QLabel" name="quarter4Score">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </widget>
+   </item>
+   <item row="16" column="9" colspan="2">
+    <widget class="QLabel" name="championsLabel">
+     <property name="font">
+      <font>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Champions</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item row="15" column="2">
+    <widget class="QLabel" name="team8Score">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="3" colspan="3">
+    <widget class="QLabel" name="qfLabel">
+     <property name="font">
+      <font>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Quarterfinals</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item row="24" column="2">
+    <widget class="QLabel" name="team12Score">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </widget>
+   </item>
+   <item row="6" column="5">
+    <widget class="QLabel" name="match2Score">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </widget>
+   </item>
+   <item row="31" column="5">
+    <widget class="QLabel" name="match8Score">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </widget>
+   </item>
+   <item row="21" column="6" colspan="2">
+    <widget class="QLabel" name="quarter3Team">
+     <property name="text">
+      <string>Match 11 Winner</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item row="30" column="2">
+    <widget class="QLabel" name="team15Score">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="6" colspan="3">
+    <widget class="QLabel" name="sfLabel">
+     <property name="font">
+      <font>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Semifinals</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item row="26" column="0" colspan="2">
+    <widget class="QLabel" name="team13Team">
+     <property name="text">
+      <string>Team 13</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item row="26" column="2">
+    <widget class="QLabel" name="team13Score">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="3" colspan="2">
+    <widget class="QLabel" name="match1Team">
+     <property name="text">
+      <string>Match 1 Winner</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="2">
+    <widget class="QLabel" name="team3Score">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </widget>
+   </item>
+   <item row="20" column="2">
+    <widget class="QLabel" name="team10Score">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </widget>
+   </item>
+   <item row="12" column="8">
+    <widget class="QLabel" name="quarter2Score">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="2">
+    <widget class="QLabel" name="team1Score">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </widget>
+   </item>
+   <item row="22" column="2">
+    <widget class="QLabel" name="team11Score">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </widget>
+   </item>
+   <item row="24" column="0" colspan="2">
+    <widget class="QLabel" name="team12Team">
+     <property name="text">
+      <string>Team 12</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item row="23" column="5">
+    <widget class="QLabel" name="match6Score">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </widget>
+   </item>
+   <item row="18" column="0" colspan="2">
+    <widget class="QLabel" name="team9Team">
+     <property name="text">
+      <string>Team 9</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item row="11" column="2">
+    <widget class="QLabel" name="team6Score">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </widget>
+   </item>
+   <item row="18" column="2">
+    <widget class="QLabel" name="team9Score">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </widget>
+   </item>
+   <item row="13" column="2">
+    <widget class="QLabel" name="team7Score">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </widget>
+   </item>
+   <item row="13" column="0" colspan="2">
+    <widget class="QLabel" name="team7Team">
+     <property name="text">
+      <string>Team 7</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item row="20" column="0" colspan="2">
+    <widget class="QLabel" name="team10Team">
+     <property name="text">
+      <string>Team 10</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item row="29" column="6" colspan="2">
+    <widget class="QLabel" name="quarter4Team">
+     <property name="text">
+      <string>Match 12 Winner</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item row="23" column="3" colspan="2">
+    <widget class="QLabel" name="match6Team">
+     <property name="text">
+      <string>Match 6 Winner</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item row="32" column="0" colspan="2">
+    <widget class="QLabel" name="team16Team">
+     <property name="text">
+      <string>Team 16</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="8">
+    <widget class="QLabel" name="quarter1Score">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </widget>
+   </item>
+   <item row="22" column="0" colspan="2">
+    <widget class="QLabel" name="team11Team">
+     <property name="text">
+      <string>Team 11</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="0" colspan="3">
+    <widget class="QLabel" name="firstRoundLabel">
+     <property name="font">
+      <font>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>First Round</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item row="19" column="5">
+    <widget class="QLabel" name="match5Score">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </widget>
+   </item>
+   <item row="10" column="3" colspan="2">
+    <widget class="QLabel" name="match3Team">
+     <property name="text">
+      <string>Match 3 Winner</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item row="19" column="3" colspan="2">
+    <widget class="QLabel" name="match5Team">
+     <property name="text">
+      <string>Match 5 Winner</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item row="15" column="0" colspan="2">
+    <widget class="QLabel" name="team8Team">
+     <property name="text">
+      <string>Team 8</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item row="12" column="6" colspan="2">
+    <widget class="QLabel" name="quarter2Team">
+     <property name="text">
+      <string>Match 10 Winner</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item row="14" column="3" colspan="2">
+    <widget class="QLabel" name="match4Team">
+     <property name="text">
+      <string>Match 4 Winner</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="9" colspan="3">
+    <widget class="QLabel" name="finalsLabel">
+     <property name="font">
+      <font>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Finals</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item row="21" column="8">
+    <widget class="QLabel" name="quarter3Score">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </widget>
+   </item>
+   <item row="17" column="9" colspan="2">
+    <widget class="QLabel" name="champions">
+     <property name="text">
+      <string>Champions</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item row="16" column="11" colspan="2">
+    <widget class="QLabel" name="runnersUpLabel">
+     <property name="font">
+      <font>
+       <weight>75</weight>
+       <bold>true</bold>
+      </font>
+     </property>
+     <property name="text">
+      <string>Runners-up</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item row="17" column="11" colspan="2">
+    <widget class="QLabel" name="runnersUp">
+     <property name="text">
+      <string>Runners-up</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item row="8" column="12">
+    <widget class="QLabel" name="half1Score">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </widget>
+   </item>
+   <item row="8" column="9" colspan="3">
+    <widget class="QLabel" name="half1Team">
+     <property name="text">
+      <string>Match 13 Winner</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+   <item row="33" column="0" colspan="13">
+    <widget class="QPushButton" name="playCupMatchButton">
+     <property name="enabled">
+      <bool>false</bool>
+     </property>
+     <property name="text">
+      <string>Play match</string>
+     </property>
+    </widget>
+   </item>
+   <item row="25" column="12">
+    <widget class="QLabel" name="half2Score">
+     <property name="text">
+      <string>0</string>
+     </property>
+    </widget>
+   </item>
+   <item row="25" column="9" colspan="3">
+    <widget class="QLabel" name="half2Team">
+     <property name="text">
+      <string>Match 14 Winner</string>
+     </property>
+     <property name="alignment">
+      <set>Qt::AlignCenter</set>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
