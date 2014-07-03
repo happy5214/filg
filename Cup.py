@@ -16,6 +16,8 @@ class SixteenTeamDivisionalCupWrapper(QObject):
         self.season = season
         season.update_cup_seedings.connect(self.update_seedings)
         season.league_finished.connect(self.cup.fix_first_round)
+        season.league_finished.connect(self.update_seedings)
+        season.league_finished.connect(self.league_finished)
 #        self.cup_finished.connect(season.cup_done)
         self.init_widget()
         self.init_bracket()
@@ -101,6 +103,9 @@ class SixteenTeamDivisionalCupWrapper(QObject):
         self.widget.division4ThirdTeam.setText(str(self.teams[3][2]))
         self.widget.division4FourthTeam.setText(str(self.teams[3][3]))
         self.update_bracket()
+    
+    def league_finished(self):
+        self.widget.playCupMatchButton.setEnabled(True)
     
     def play_match(self):
         finished = self.cup.play_match()
