@@ -1,0 +1,8 @@
+.directory
+*.pyc
+*.fs*
+*.txt
+Caribbean/
+old/
+Seasons/
+Templates/
