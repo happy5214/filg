@@ -15,10 +15,6 @@ class ThirtyTwoTeamUnseededCupWrapper(QObject):
         super(ThirtyTwoTeamUnseededCupWrapper, self).__init__()
         self.cup = cup
         self.season = season
-        #season.update_cup_seedings.connect(self.update_seedings)
-        #season.league_finished.connect(self.cup.fix_first_round)
-        #season.league_finished.connect(self.update_seedings)
-        #season.league_finished.connect(self.league_finished)
         self.init_widget()
         self.init_bracket()
         self.update_teams()
